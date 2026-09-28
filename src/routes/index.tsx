@@ -35,7 +35,9 @@ export function Home() {
         <p className="text-right text-sm text-mute">
           anchored to MU
           <br />
-          mikerun.lol
+          <a href="https://x.com/micrun_mu" className="text-cream">
+            @micrun_mu
+          </a>
         </p>
       </header>
 

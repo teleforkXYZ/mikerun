@@ -21,7 +21,7 @@ contract MikeEar {
         owner = msg.sender;
         description = "Mike Run. He runs. Micron remembers. Anchored to MU. Not Tyson. Not Micron.";
         website = "https://mikerun.lol";
-        xHandle = "mikerun";
+        xHandle = "micrun_mu";
     }
 
     function setToken(address next) external {
