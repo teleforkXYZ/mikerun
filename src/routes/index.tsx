@@ -44,14 +44,14 @@ export function Home() {
       <section className="mt-6 overflow-hidden rounded-2xl border border-line bg-panel">
         <img
           src="/mikerun/banner.png"
-          alt="Mike Run, tires for legs, fire behind the sprint"
+          alt="MIKERUN, tires for legs, fire behind the sprint"
           className="block max-h-[28rem] w-full object-cover object-center"
         />
       </section>
 
       <section className="mt-8 grid gap-6 md:grid-cols-[1.4fr_0.8fr] md:items-end">
         <div>
-          <p className="font-display text-6xl leading-none text-cream sm:text-8xl">MIKE RUN</p>
+          <p className="font-display text-6xl leading-none text-cream sm:text-8xl">MIKERUN</p>
           <p className="mt-4 max-w-xl text-xl text-gold">He runs. Micron remembers.</p>
           <p className="mt-3 max-w-xl text-base leading-relaxed text-mute">
             The legs are tires. The lap does not end. Memory is the only thing that keeps the pace.
@@ -103,7 +103,7 @@ export function Home() {
       </section>
 
       <footer className="mt-12 text-sm text-mute">
-        Mike Run is a joke. Not Mike Tyson. Not Micron Technology.
+        MIKERUN is a joke. Not Mike Tyson. Not Micron Technology.
       </footer>
     </main>
   );
