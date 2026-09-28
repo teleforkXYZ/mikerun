@@ -6,7 +6,7 @@ export const Route = createFileRoute("/")({ component: Home });
 const LAPS_KEY = "mikerun-laps";
 
 const facts = [
-  { k: "Ticker", v: "MIKERUN" },
+  { k: "Ticker", v: "MIEKRUN" },
   { k: "Pair", v: "MU" },
   { k: "Line", v: "He runs. Micron remembers." },
   { k: "Site", v: "mikerun.lol" },
@@ -31,7 +31,7 @@ export function Home() {
   return (
     <main className="mx-auto max-w-5xl px-4 pb-20 pt-6">
       <header className="flex items-end justify-between gap-4">
-        <p className="font-display text-2xl tracking-wide text-cream">MIKERUN</p>
+        <p className="font-display text-2xl tracking-wide text-cream">MIEKRUN</p>
         <p className="text-right text-sm text-mute">
           anchored to MU
           <br />
@@ -96,7 +96,7 @@ export function Home() {
         <article className="flex flex-col justify-between rounded-2xl border border-line bg-panel p-6 md:col-span-2">
           <p className="font-display text-5xl leading-none text-cream">DISCIPLINE BUILDS FREEDOM</p>
           <p className="mt-4 text-base leading-relaxed text-mute">
-            One lap is a click. The ticker is MIKERUN. The stock on the other side is MU. The cow already
+            One lap is a click. The ticker is MIEKRUN. The stock on the other side is MU. The cow already
             moos. This one just runs.
           </p>
         </article>
