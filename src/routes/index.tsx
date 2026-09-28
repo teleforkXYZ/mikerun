@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 export const Route = createFileRoute("/")({ component: Home });
 
 const CA = "";
+const LAPS_KEY = "mikerun-laps";
 
 const facts = [
   { k: "Ticker", v: "MIKE" },
