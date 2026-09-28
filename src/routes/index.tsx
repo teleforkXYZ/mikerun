@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 
 export const Route = createFileRoute("/")({ component: Home });
 
-const LAPS_KEY = "mikerun-laps";
+const CA = "";
 
 const facts = [
   { k: "Ticker", v: "MIKE" },
@@ -53,6 +53,8 @@ export function Home() {
         <div>
           <p className="font-display text-6xl leading-none text-cream sm:text-8xl">MIKERUN</p>
           <p className="mt-4 max-w-xl text-xl text-gold">He runs. Micron remembers.</p>
+          <p className="mt-4 font-display text-3xl tracking-wide text-cream">CA</p>
+          <p className="mt-1 break-all font-sans text-lg text-ember">{CA || "soon"}</p>
           <p className="mt-3 max-w-xl text-base leading-relaxed text-mute">
             The legs are tires. The lap does not end. Memory is the only thing that keeps the pace.
             Anchored to MU. Not Tyson. Not Micron.
