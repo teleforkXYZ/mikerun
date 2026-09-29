@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 
 export const Route = createFileRoute("/")({ component: Home });
 
-const CA = "";
+const CA = "0x96f905a419b1a69e2a51d5a24a2f8b99f886f8cc";
 const LAPS_KEY = "mikerun-laps";
 
 const facts = [
